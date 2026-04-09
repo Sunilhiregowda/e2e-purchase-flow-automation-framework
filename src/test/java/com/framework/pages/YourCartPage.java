@@ -15,7 +15,8 @@ public class YourCartPage extends BasePage {
 	}
 
 	public boolean isProductDisplayed(String productName) {
-		By product = By.xpath("//div[@class='inventory_item_name' and text()=" + LocatorUtils.safeXPathString(productName) + "]");
+		By product = By.xpath(
+				"//div[@class='inventory_item_name' and text()=" + LocatorUtils.safeXPathString(productName) + "]");
 		return ElementActions.isDisplayed(product);
 	}
 
