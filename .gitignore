@@ -1,0 +1,23 @@
+# Build output
+target/
+.allure/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# Test output
+test-output/
+reports/
+allure-results/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
