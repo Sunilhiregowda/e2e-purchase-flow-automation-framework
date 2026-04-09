@@ -1,10 +1,7 @@
-# e2e-purchase-flow-automation-framework
-Selenium Java E2E test automation framework using Page Object Model, TestNG, Allure &amp; Extent Reports. Automates the complete purchase flow on SauceDemo with cross-browser parallel execution (Chrome, Edge, Firefox), retry logic, and structured logging via Log4j2.
-
 # SauceDemo E2E Selenium Automation Framework
 
 ## Overview
-This framework automates the end-to-end purchase flow on SauceDemo using Java, Selenium, TestNG, Maven, and Page Object Model.
+Selenium Java E2E test automation framework using Page Object Model, TestNG, Allure &amp; Extent Reports. Automates the complete purchase flow on SauceDemo with cross-browser parallel execution (Chrome, Edge, Firefox), retry logic, and structured logging via Log4j2.
 
 ## Covered Scenarios
 1. Login
